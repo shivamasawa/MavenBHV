@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Page Object test example" duration-ms="10259" started-at="2018-10-24T09:02:00Z" finished-at="2018-10-24T09:02:10Z">
+    <groups>
+    </groups>
+    <test name="sample test" duration-ms="10259" started-at="2018-10-24T09:02:00Z" finished-at="2018-10-24T09:02:10Z">
+      <class name="tests.HomePageTest">
+        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:tests.HomePageTest@5e3a8624]" name="initializeTestBaseSetup" is-config="true" duration-ms="9245" started-at="2018-10-24T09:02:00Z" finished-at="2018-10-24T09:02:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://staging.businessnewsdaily.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.HomePageTest@5e3a8624]" name="setUp" is-config="true" duration-ms="1" started-at="2018-10-24T09:02:09Z" finished-at="2018-10-24T09:02:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyHomePage()[pri:0, instance:tests.HomePageTest@5e3a8624]" name="verifyHomePage" duration-ms="260" started-at="2018-10-24T09:02:09Z" finished-at="2018-10-24T09:02:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.HomePageTest@5e3a8624]" name="tearDown" is-config="true" duration-ms="729" started-at="2018-10-24T09:02:09Z" finished-at="2018-10-24T09:02:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.HomePageTest -->
+    </test> <!-- sample test -->
+  </suite> <!-- Page Object test example -->
+</testng-results>
